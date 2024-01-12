@@ -45,10 +45,14 @@ tcping [选项] <目标IP> [端口]
 ```sh
 tcping 1.1.1.1
 ```
-这个命令将对 `1.1.1.1 上的 80 端口无限循环进行 TCP Ping 测试，每秒发送一次。
+这个命令将对 1.1.1.1 上的 80 端口无限循环进行 TCP Ping 测试，每秒发送一次。
+```sh
+tcping google.com
+```
+这个命令将对 google.com 上的 80 端口无限循环进行 TCP Ping 测试，每秒发送一次。
 ```sh
 tcping -t 10 -i 1s 1.1.1.1 443
 ```
 这个命令将对 1.1.1.1 上的 443 端口进行 10 秒的 TCP Ping 测试，每秒发送一次。
 
-源代码来自于 [NS]([https://](https://www.nodeseek.com/post-24771-1)https://www.nodeseek.com/post-24771-1)
+源代码来自于 [Nodeseek用户 chwuinj 的帖子](https://www.nodeseek.com/post-24771-1) 本人仅是用ChatGPT进行优化.
