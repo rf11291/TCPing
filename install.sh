@@ -10,7 +10,7 @@ curl -o tcping $DOWNLOAD_URL
 if [ -f "tcping" ]; then
     echo "下载成功。正在安装..."
     # 移动到 /usr/bin/ 并赋予执行权限
-    sudo mv tcping /usr/bin/tcping
+    sudo mv -f tcping /usr/bin/tcping
     sudo chmod +x /usr/bin/tcping
     echo "tcping 已安装至 /usr/bin/tcping"
 else
