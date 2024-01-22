@@ -23,7 +23,7 @@ TCP Ping Tool 是一个使用 Go 语言编写的简单网络诊断工具。它�
 Debian一键安装命令
 
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/rf11291/TCPing/main/install.sh)
+bash <(curl -o -s https://raw.githubusercontent.com/rf11291/TCPing/main/install.sh)
 ```
 其他平台用户自行下载**tcping**文件到相对应目录中
 
